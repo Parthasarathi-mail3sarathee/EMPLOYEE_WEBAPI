@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -16,6 +16,11 @@
   <ItemGroup>
     <ProjectReference Include="..\EmployeeDataAccessLayer\Employee_DataAccessLayer.csproj" />
     <ProjectReference Include="..\Employee_Service\Employee_Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\base\" />
+    <Folder Include="Filters\" />
   </ItemGroup>
 
 </Project>
